@@ -1,5 +1,4 @@
-from pila import Pila
-
+from Pila import Pila
 
 
 class Navegador:
@@ -50,6 +49,6 @@ class Navegador:
             respuesta = input("Quieres eliminarlo? (s/n): ")
             if respuesta.lower() == "s":
                 self.historial.vaciar()
-                print("Historial eliminado correctamente.")
+                print("Historial correctamente eliminado.")
             else:
                 print("No se elimino el historial.")
